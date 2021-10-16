@@ -1,9 +1,9 @@
+// import { Home } from "./pages/Home";
+import { NewRoom } from "./pages/NewRoom";
+import "./styles/global.scss";
+
 function App() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  );
+  return <NewRoom />;
 }
 
 export default App;
